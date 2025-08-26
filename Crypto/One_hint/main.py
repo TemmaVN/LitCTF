@@ -14,4 +14,3 @@ def power(pt,n):
     return a
 flag = "LITCTF{redacted}"   
 print("hint 1: " + power(flag, 2345))
-print(f'{vigenere(flag, vigenere(flag,flag)) = }')  

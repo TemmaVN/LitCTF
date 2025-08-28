@@ -35,8 +35,7 @@ else:
 	p = process(exe.path)
 
 GDB()
-payload = f'AAA%7$n'.encode()
-sl(payload)
+
 
 p.interactive()
 

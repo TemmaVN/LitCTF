@@ -13,7 +13,7 @@ int main() {
 	long x = 0;
 	printf("Buffer located at: %p\n", buf);
 	buf[read(0, buf, 256) - 1] = 0;
-	printf(buf);
+	printf(buf); // format string 
 	if (x) win();
 	exit(0);
 }
